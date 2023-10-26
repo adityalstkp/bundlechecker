@@ -1,5 +1,5 @@
 {
-  "name": "bundlechecker",
+  "name": "@adityals/bundlechecker",
   "version": "0.0.0",
   "main": "index.js",
   "types": "index.d.ts",

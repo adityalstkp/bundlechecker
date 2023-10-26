@@ -5,6 +5,15 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@adityals/bundlechecker@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@adityals/bundlechecker@workspace:."
+  dependencies:
+    "@napi-rs/cli": ^2.15.2
+    ava: ^5.1.1
+  languageName: unknown
+  linkType: soft
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -332,15 +341,6 @@ __metadata:
   checksum: e2a8e769a863f3d4ee887b5fe21f63193a891c68b612ddb4b68d82d1b5f3ff9073af066c343e9867a393fe4c2555dcb33e89b937195feb9c1613d259edfcd459
   languageName: node
   linkType: hard
-
-"bundlechecker@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "bundlechecker@workspace:."
-  dependencies:
-    "@napi-rs/cli": ^2.15.2
-    ava: ^5.1.1
-  languageName: unknown
-  linkType: soft
 
 "cacache@npm:^17.0.0":
   version: 17.1.4

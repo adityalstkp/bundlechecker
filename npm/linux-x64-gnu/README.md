@@ -1,3 +1,3 @@
-# `bundlechecker-linux-x64-gnu`
+# `@adityals/bundlechecker-linux-x64-gnu`
 
-This is the **x86_64-unknown-linux-gnu** binary for `bundlechecker`
+This is the **x86_64-unknown-linux-gnu** binary for `@adityals/bundlechecker`

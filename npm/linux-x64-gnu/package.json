@@ -1,6 +1,6 @@
 {
-  "name": "bundlechecker-linux-x64-gnu",
-  "version": "0.0.0",
+  "name": "@adityals/bundlechecker-linux-x64-gnu",
+  "version": "0.0.1",
   "os": [
     "linux"
   ],

@@ -1,6 +1,6 @@
 {
-  "name": "bundlechecker-darwin-x64",
-  "version": "0.0.0",
+  "name": "@adityals/bundlechecker-darwin-x64",
+  "version": "0.0.1",
   "os": [
     "darwin"
   ],

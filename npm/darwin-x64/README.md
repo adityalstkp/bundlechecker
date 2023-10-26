@@ -1,3 +1,3 @@
-# `bundlechecker-darwin-x64`
+# `@adityals/bundlechecker-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `bundlechecker`
+This is the **x86_64-apple-darwin** binary for `@adityals/bundlechecker`
