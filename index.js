@@ -37,7 +37,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./bundlechecker.android-arm64.node')
           } else {
-            nativeBinding = require('bundlechecker-android-arm64')
+            nativeBinding = require('@adityals/bundlechecker-android-arm64')
           }
         } catch (e) {
           loadError = e
@@ -49,7 +49,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./bundlechecker.android-arm-eabi.node')
           } else {
-            nativeBinding = require('bundlechecker-android-arm-eabi')
+            nativeBinding = require('@adityals/bundlechecker-android-arm-eabi')
           }
         } catch (e) {
           loadError = e
@@ -69,7 +69,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./bundlechecker.win32-x64-msvc.node')
           } else {
-            nativeBinding = require('bundlechecker-win32-x64-msvc')
+            nativeBinding = require('@adityals/bundlechecker-win32-x64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -83,7 +83,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./bundlechecker.win32-ia32-msvc.node')
           } else {
-            nativeBinding = require('bundlechecker-win32-ia32-msvc')
+            nativeBinding = require('@adityals/bundlechecker-win32-ia32-msvc')
           }
         } catch (e) {
           loadError = e
@@ -97,7 +97,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./bundlechecker.win32-arm64-msvc.node')
           } else {
-            nativeBinding = require('bundlechecker-win32-arm64-msvc')
+            nativeBinding = require('@adityals/bundlechecker-win32-arm64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -113,7 +113,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./bundlechecker.darwin-universal.node')
       } else {
-        nativeBinding = require('bundlechecker-darwin-universal')
+        nativeBinding = require('@adityals/bundlechecker-darwin-universal')
       }
       break
     } catch {}
@@ -124,7 +124,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./bundlechecker.darwin-x64.node')
           } else {
-            nativeBinding = require('bundlechecker-darwin-x64')
+            nativeBinding = require('@adityals/bundlechecker-darwin-x64')
           }
         } catch (e) {
           loadError = e
@@ -138,7 +138,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./bundlechecker.darwin-arm64.node')
           } else {
-            nativeBinding = require('bundlechecker-darwin-arm64')
+            nativeBinding = require('@adityals/bundlechecker-darwin-arm64')
           }
         } catch (e) {
           loadError = e
@@ -157,7 +157,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./bundlechecker.freebsd-x64.node')
       } else {
-        nativeBinding = require('bundlechecker-freebsd-x64')
+        nativeBinding = require('@adityals/bundlechecker-freebsd-x64')
       }
     } catch (e) {
       loadError = e
@@ -174,7 +174,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./bundlechecker.linux-x64-musl.node')
             } else {
-              nativeBinding = require('bundlechecker-linux-x64-musl')
+              nativeBinding = require('@adityals/bundlechecker-linux-x64-musl')
             }
           } catch (e) {
             loadError = e
@@ -187,7 +187,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./bundlechecker.linux-x64-gnu.node')
             } else {
-              nativeBinding = require('bundlechecker-linux-x64-gnu')
+              nativeBinding = require('@adityals/bundlechecker-linux-x64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -203,7 +203,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./bundlechecker.linux-arm64-musl.node')
             } else {
-              nativeBinding = require('bundlechecker-linux-arm64-musl')
+              nativeBinding = require('@adityals/bundlechecker-linux-arm64-musl')
             }
           } catch (e) {
             loadError = e
@@ -216,7 +216,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./bundlechecker.linux-arm64-gnu.node')
             } else {
-              nativeBinding = require('bundlechecker-linux-arm64-gnu')
+              nativeBinding = require('@adityals/bundlechecker-linux-arm64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -231,7 +231,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./bundlechecker.linux-arm-gnueabihf.node')
           } else {
-            nativeBinding = require('bundlechecker-linux-arm-gnueabihf')
+            nativeBinding = require('@adityals/bundlechecker-linux-arm-gnueabihf')
           }
         } catch (e) {
           loadError = e
