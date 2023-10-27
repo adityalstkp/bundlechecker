@@ -94,6 +94,15 @@ impl Files {
     }
   }
 
+  fn translate_path(&self, path: &str) -> Result<String> {
+    let p = Path::new(path);
+    if p.is_relative() {
+      let curr_dir = std::env::current_dir()?;
+      return Ok(curr_dir.display().to_string() + "/" + path);
+    }
+    Ok(path.to_string())
+  }
+
   fn convert_max_budget_unit(&self, max_budget: &String) -> Result<f64> {
     let file_unit = get_file_unit(&max_budget);
     if let Some(v) = file_unit {
@@ -136,7 +145,9 @@ impl Files {
     let path = &c.path;
     let budget_size = self.convert_max_budget_unit(&c.max_size)?;
 
-    let mut glob_walker = globwalk::glob(path)?.peekable();
+    let translated_path = self.translate_path(&path)?;
+
+    let mut glob_walker = globwalk::glob(translated_path)?.peekable();
     if glob_walker.peek().is_none() {
       collected_files.lock().unwrap().insert(
         path.to_string(),
